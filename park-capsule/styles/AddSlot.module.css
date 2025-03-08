@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+.parking__main {
+  background-color: gainsboro;
+  height: 145vh;
+  /* margin-top: 5rem; */
+}
+.parking__car {
+  display: block;
+  margin: auto;
+  width: 90vw;
+  height: 60vh;
+}
+.parking__head {
+  position: relative;
+}
+.parking__box {
+  position: absolute;
+  background-color: #fff;
+  width: 70vw;
+  left: 15vw;
+  text-align: center;
+  margin: auto;
+  top: 90%;
+  display: flex;
+  padding: 1.5rem;
+  padding-bottom: 3rem;
+}
+.parking__content {
+  text-align: left;
+  /* padding: 2rem; */
+}
+.parking__range {
+  font-size: 18px;
+  font-weight: 450;
+  /* font-family: "Quicksand", sans-serif; */
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+.inputtext {
+  width: 20vw;
+}
+.file {
+  display: none;
+}
+
+.parking__inputs {
+  background-color: #4d4d4d;
+  margin: 1rem;
+  border-radius: 3px;
+  border: black solid 2px;
+  padding-left: 0.5rem;
+  height: 2.5rem;
+  color: white;
+  border: none;
+  width:16rem;
+  color:#d9d9d9
+}
+.parking__inputs:focus{
+  outline:none
+}
+.parking__btn {
+  display: block;
+  margin: auto;
+  background-color: black;
+  padding: 3px 1.25rem;
+  color: white;
+  border-radius: 1.25rem;
+  position: absolute;
+  left: 33vw;
+  width: 7vw;
+  border:none
+}
+.parking__white {
+  width: 45vw;
+}
+.car__image {
+  width: 20vw;
+  margin: 0.75rem;
+}
+.addslottext {
+  margin-left: 22vw;
+  font-weight: bolder;
+}
+.error {
+  color: red;
+  margin-left: 22vw;
+}
+.parking__image {
+  width: 20vw;
+  display: flex;
+  align-items: center;
+}
+@media (min-height: 800px) {
+  .parking__main {
+    height: 124vh;
+  }
+}
+@media (min-height: 900px) {
+  .parking__main {
+    height: 110vh;
+  }
+}

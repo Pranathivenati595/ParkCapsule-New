@@ -1,0 +1,54 @@
+.root{
+    margin: 0px;
+    padding:0px
+}
+.rectangular{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width:40rem;
+    background-color: #A9A9A9;
+    height:3rem;
+    border-radius: 0.5rem;
+    color:black;
+    display: flex;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    width: 20rem;
+    border-right: 2px solid gray;
+    cursor: pointer;
+}
+.book{
+    display: flex;
+    justify-content: center;
+    width:20rem;
+    cursor: pointer;
+}
+.cards{
+    margin-left: 3rem;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 2rem;
+    margin-bottom: 2rem;
+}
+.error{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 45px;
+    position: absolute;
+    top:50vh;
+    margin-left: 25vw;
+}
+@media only screen and (min-width:1600px){
+    .cards{
+        margin-left: 7rem;
+    }
+    .error{
+        margin-left: 30vw;
+    }
+}

@@ -1,0 +1,54 @@
+.root{
+    background-color: #2e2a2a;
+    height:25rem;
+    width:21rem;
+    border-radius: 2rem;
+}
+.img{
+    width:21rem;
+    height: 10rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.details{
+    color: white;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    border-bottom:2px solid gray
+}
+.field{
+    display: flex;
+    position: relative;
+    margin-bottom: -5px;
+}
+.value{
+    position: absolute;
+    left:11.5rem
+}
+.buttons{
+    position: relative;
+    padding-top: 0.3rem;
+}
+.button1{
+    position: absolute;
+    left:2rem;
+    border-radius: 0.5rem;
+    width:4rem;
+    height: 2rem;
+    font-weight: bold;
+    /* background color light green */
+    background-color: #4CAF50;
+    color:azure
+}
+.button2{
+    position: absolute;
+    right:2rem;
+    border-radius: 0.5rem;
+    width:4rem;
+    height: 2rem;
+    font-weight: bold;
+    /* background color for delete button */
+    background-color: #D8000C;
+    color:azure
+}
+

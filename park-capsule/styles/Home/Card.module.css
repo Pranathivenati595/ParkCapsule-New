@@ -1,0 +1,64 @@
+.root{
+    background-color: #2e2a2a;
+    height:22rem;
+    width:17rem;
+    border-radius: 2rem;
+    padding:1.5rem;
+}
+.image{
+    width:5rem;
+    border-radius: 50%;
+    border:3px solid #66b2b2
+}
+.text{
+    font-family: 'Ubuntu', sans-serif;
+    color:#ffffff;
+    margin-top: 3rem;
+}
+.subHead{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.para{
+    font-size: 20px;
+}
+@media only screen and (max-width:1000px){
+    .root{
+        margin-left: auto;
+        margin-right: auto;
+        height:15rem;
+        width:13rem;
+    }
+    .text{
+        margin-top: 1rem;
+    }
+    .image{
+        width:3rem
+    }
+    .subHead{
+        font-size: 17px;
+    }
+    .para{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:600px){
+    .root{
+        margin-left: auto;
+        margin-right: auto;
+        height:12rem;
+        width:11rem;
+    }
+    .text{
+        margin-top: 0.5rem;
+    }
+    .image{
+        width:2rem
+    }
+    .subHead{
+        font-size: 15px;
+    }
+    .para{
+        font-size: 13px;
+    }
+}

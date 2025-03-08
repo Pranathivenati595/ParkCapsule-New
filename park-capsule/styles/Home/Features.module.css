@@ -1,0 +1,38 @@
+.features__main {
+  min-height: 100vh;
+  background-color: #283a59;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.features__cards {
+  background-color: #fff;
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.features__subtext {
+  color: gray;
+}
+.features__one,
+.features__three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+}
+
+.features__leftText {
+  text-align: right;
+}
+@media (max-width: 1600px) {
+  .features__cards {
+    padding-top: 1rem;
+  }
+}

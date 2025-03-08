@@ -1,0 +1,22 @@
+.root {
+  min-height: 100vh;
+  margin-top: 15vh;
+  height: 100%;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.input {
+  width: 25rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px black;
+  border: none;
+  padding-right: 3rem;
+}
+.input:focus {
+  outline: none;
+}

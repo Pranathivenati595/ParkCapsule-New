@@ -1,0 +1,113 @@
+.root{
+    height:100vh;
+    background-image: url("/AboutUs.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0rem;
+    padding:0rem;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.heading{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color:#2e2a2a
+}
+.cards{
+    margin-left: 2rem;
+    margin-top: 3vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin-left: 8rem;
+}
+.contact{
+    display:flex;
+    margin-top: 7vh;
+    margin-left: 1rem;
+    align-items: center;
+}
+.contactImage{
+    width:3rem
+}
+.insta{
+    width:5.5rem;
+    margin-right: -1rem;
+    margin-left: -1rem;
+}
+.contactText{
+    margin-top: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin-right: 1.5rem;
+}
+@media only screen and (min-height:800px){
+    .cards{
+        margin-top:13vh
+    }   
+    .contact{
+        margin-top: 19vh;
+    }
+}
+@media only screen and (min-height:950px){
+    .cards{
+        margin-top:22vh
+    }   
+    .contact{
+        margin-top: 22vh;
+    }
+}
+@media only screen and (max-width:1000px){
+    .cards{
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+        margin-left:0rem
+    }
+    .cards{
+        margin-top:3vh
+    }
+    .contact{
+        margin-top: 5vh;
+    }
+    .contactText{
+        font-size: small;
+    }
+}
+@media only screen and (max-width:600px){
+    .cards{
+        row-gap: 0.8rem;
+        margin-left: 0rem;
+    }
+    .cards{
+        margin-top:1vh
+    }
+    .contact{
+        margin-top: 7vh;
+        flex-basis: 100%;
+    }
+    .contactText{
+        font-size: 8px;
+    }
+    .root{
+        background-size: cover;
+    }
+    .contactImage{
+        width:1rem
+    }
+    .insta{
+        width:2rem;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+}
+@media only screen and (min-width:1600px){
+    .cards{
+        margin-left: 10rem;
+    }
+}

@@ -1,0 +1,83 @@
+.root{
+    height:100vh;
+    background-image: url("/homepage.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0rem;
+    padding:0rem;
+}
+.homePage__bg {
+  z-index: -1;
+  position: relative;
+}
+
+.homePage__text {
+  position: absolute;
+  top: 45%;
+  color: #fff;
+  font-weight: bolder;
+  margin-left: 10%;
+  font-size: 50px;
+}
+
+.homePage__subtext {
+  color: #fff;
+  font-size: 20px;
+}
+.homePage__buttons {
+  border: none;
+  color: blue;
+  padding: 10px 50px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 2rem;
+  margin-right: 50px;
+}
+
+.homePage__widget__img {
+  cursor: pointer;
+  height: 4rem;
+  width:4rem
+}
+
+.homePage__chat {
+  cursor: pointer;
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  width: 5%;
+}
+.homePage__widgets{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0px;
+  top: 35%;
+}
+
+@media (max-width: 780px) {
+  .homePage__text {
+    font-size: 30px;
+  }
+}
+@media (max-width: 450px) {
+  .homePage__text {
+    font-size: 18px;
+  }
+  .homePage__buttons {
+    font-size: 12px;
+    padding: 5px 25px;
+    margin: 10px 10px 0px 0px;
+  }
+  .homePage__subtext {
+    font-size: 15px;
+  }
+  .homePage__widget__img {
+    height: 20%;
+    top: 40%;
+  }
+  .homePage__chat {
+    width: 10%;
+  }
+}

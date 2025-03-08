@@ -1,0 +1,118 @@
+.profile__main {
+  padding-top: 18vh !important;
+  min-height: 100vh;
+  width: 80%;
+  margin: auto;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.profile__Edit {
+  position: absolute;
+  right: 15%;
+  top: 20vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: solid #fff 1px;
+  padding: 3px;
+  margin-right: 1rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.profile__avatar {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  position: relative;
+}
+.file {
+  display: none;
+}
+.img {
+  display: inline-block;
+  position: absolute;
+  left: 0%;
+  height: 200px;
+  border-radius: 100%;
+}
+.file__label {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  height: 40px;
+  width: 200px;
+  bottom: 0;
+  left: 0%;
+  font-weight: 100;
+  font-size: 15px;
+}
+.profile__deets {
+  display: flex;
+}
+.profile__details {
+  width: 60%;
+  background-color: #283a59;
+  margin: auto;
+  text-align: left;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.profile__heading {
+  font-weight: bold;
+  width: 30%;
+  margin: 0.5rem;
+}
+.profile__values {
+  padding: 0.35rem 1.5rem 0.35rem 5px;
+  font-size: 1rem;
+  border-radius: 3px;
+  margin: 0.5rem;
+  border: none;
+  color: black;
+}
+.profile__values:focus {
+  outline: none;
+}
+.profile__bank {
+  font-weight: bolder;
+}
+.profile__upiSubText {
+  font-size: 10px;
+  font-weight: 200;
+  display: inline-block;
+  margin-left: 5px;
+  /* width: 20%; */
+  /* width: fit-content !important; */
+  /* width: 8%; */
+}
+.profile__upiImg {
+  width: 8%;
+  margin-left: 1rem;
+}
+.profile__visapic {
+  width: 5%;
+  margin-left: 1rem;
+}
+.profile__bank {
+  display: flex;
+  align-items: center;
+}
+.profile__bankInput {
+  margin-left: 2rem;
+}
+.btn {
+  display: block;
+  margin: auto;
+  background-color: #2e2a2a;
+  color: #fff;
+  border-radius: 15px;
+  padding: 4px 15px;
+  border: none;
+}
